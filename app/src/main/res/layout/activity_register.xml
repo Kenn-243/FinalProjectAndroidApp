@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingStart="50dp"
+        android:paddingTop="80dp" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Welcome!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/loginText"
+        android:paddingTop="60dp"
+        android:paddingStart="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:background="@drawable/round"
+            android:hint="Name"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="40dp"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/emailSignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:background="@drawable/round"
+            android:hint="Email"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/passwordSignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:inputType="textPassword"
+            android:background="@drawable/round"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:inputType="textPassword"
+            android:background="@drawable/round"
+            android:hint="Confirm Password"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:paddingStart="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/loginGateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="@color/white"
+            android:paddingTop="30dp"
+            android:paddingStart="100dp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tLogin"
+            android:textColor="@color/orchid" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

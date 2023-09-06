@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="China, a vast tapestry of wonder and enchantment, beckons travelers to explore its boundless magnificence. This ancient land, steeped in history and teeming with natural splendors, stands as a testament to human achievement and the breathtaking beauty of the natural world.\n\n As you journey through this vast and diverse nation, you'll encounter a symphony of landscapes that will leave you in awe. The majestic peaks of the Himalayas pierce the sky, their snow-capped summits touching the heavens, while the serene waters of the Li River wind through lush, karst limestone formations like a living ink painting. The sacred Yellow Mountains, adorned with gnarled pine trees and hot springs, offer a vision of mystical tranquility that has inspired poets and artists for centuries."
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+</FrameLayout>
